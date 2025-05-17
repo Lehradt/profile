@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Profil</title>
+    <link rel="icon" href="profile.png" type="image/png">
+    <link rel="apple-touch-icon" href="profile.png" type="image/png">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+
+    <style>
+      *{
+        user-select: none;
+      }
+      img{
+        pointer-events: none;
+      }
+      body{
+        background: ;
+        margin: 0;
+        padding: 0;
+        font-family: "Marker Felt", fantasy;
+        justify-content: center;
+        text-align: center;
+      }
+      .profile{
+        width: 20%;
+        height: auto;
+        margin-top: 5%;
+        border-radius: 50%;
+      }
+      body p{
+        font-size: 10px;
+      }
+      .socials{
+        display: flex;
+        flex-direction: column;
+        width: auto;
+        margin-top: 5%;
+
+      }
+      .socials a{
+        text-decoration: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .socials a i{
+        margin-right: 5px;
+      }
+      .socials a p{
+        font-size: 15px;
+      }
+      #github{
+        color: #333333;
+      }
+      #replit{
+        color: #f26202;
+      }
+      #rep{
+        width: 15px;
+        height: 15px;
+        margin-right: 5px;
+      }
+      #discord{
+        color: #5865f2;
+      }
+      #mathe{
+        color: #46CC8D;
+      }
+      #mat{
+        width: 15px;
+        height: 15px;
+        margin-right: 5px;
+      }
+    </style>
+  </head>
+  <body>
+    <img src="profile.png" class="profile" alt="Profilbild">
+    <h1 class="name">Fabian Lehradt</h1>
+    <p class="commentary">Na du stalker ;-)</p>
+    <div class="socials">
+      <a href="https://github.com/Lehradt" target="_blank" id="github">
+        <i class="fab fa-github"></i>
+        <p>Github</p>
+      </a>
+      <a href="https://replit.com/@fabianlehradt" target="_blank" id="replit">
+        <img id="rep" src="https://img.icons8.com/fluency/48/replit.png" alt="replit"/>
+        <p>Replit</p>
+      </a>
+      <a href="https://discord.com/users/1151971830983311441" target="_blank" id="discord">
+        <i class="fab fa-discord"></i>
+        <p>Discord</p>
+      </a>
+      <a href="https://lehradt.github.io/mathe-nachhilfe" target="_blank" id="mathe">
+        <img id="mat" src="https://lehradt.github.io/mathe-nachhilfe/ressources/assets/icons/icon.png" alt="Mathe Nachhilfe">
+        <p>Mathe Nachhilfe</p>
+      </a>
+    </div>
+  </body>
+</html>
